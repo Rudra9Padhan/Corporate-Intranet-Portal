@@ -1,4 +1,3 @@
-// Try to use the new Tailwind PostCSS plugin if available, otherwise fall back to the classic `tailwindcss` package.
 let tailwindPlugin;
 try {
   tailwindPlugin = require('@tailwindcss/postcss');
